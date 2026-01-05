@@ -1,0 +1,140 @@
+body {
+  margin: 0 auto;
+  background: #737b4f;
+}
+
+header {
+  width: 100%;
+  background: #8F9779;
+}
+
+.header-info {
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header-info img {
+  max-width: 86px;
+}
+
+h1 {
+  color: white;
+  margin-left: 30px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 2px 6px rgb(0, 0, 0);
+}
+
+.picture {
+  max-width: 1440px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+}
+
+.picture img {
+  max-width: 137px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px black;
+  padding: 5px;
+  background: #8F9779;
+}
+
+.picture img:hover {
+  filter: grayscale(1);
+  transform: scale(1.03);
+}
+
+footer {
+  display: flex;
+  height: auto; 
+  background: #8F9779;
+  margin: 0;
+  width: 100%;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.footer-content {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+
+}
+.button-footer {
+  background: none;
+  border: none;
+}
+
+.button-footer:hover {
+  color: rgb(255, 255, 255);
+  
+}
+dialog {
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.dialog img {
+    max-width: 80vw;
+    max-height: 80vh;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    border-color: #737b4f;
+}
+
+.close {
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    font-size: 28px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #737b4f;
+    border-radius: 8px;
+    
+}
+
+.nav-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.nav {
+    top: 50%;
+    font-size: 30px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #737b4f;
+    border-color: #8F9779;
+}
+
+.back { left: 30px; }
+.next { right: 30px; }
