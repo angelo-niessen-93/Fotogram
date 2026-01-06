@@ -1,6 +1,17 @@
+html, body {
+  height: 100%;
+}
+
 body {
-  margin: 0 auto;
+  min-height: 100vh;
+  margin: 0;
   background: #737b4f;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 header {
@@ -37,14 +48,13 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
-  margin-bottom: 30px;
   margin: 0 auto;
   padding: 0 20px;
-
+  margin-top: 40px;
 }
 
 .picture img {
-  max-width: 137px;
+  max-width: 194px;
   height: auto;
   border-radius: 8px;
   box-shadow: 0 2px 6px black;
@@ -65,6 +75,7 @@ footer {
   width: 100%;
   align-items: center;
   padding: 10px 0;
+  margin-top: 30px;
 }
 
 .footer-content {
@@ -76,6 +87,7 @@ footer {
 
 }
 .button-footer {
+  max-width: 1440px;
   background: none;
   border: none;
 }
@@ -138,3 +150,15 @@ dialog::backdrop {
 
 .back { left: 30px; }
 .next { right: 30px; }
+
+@media (min-width: 1440px) {
+  .picture img {
+    max-width: 210px;  
+  }
+}
+
+@media (max-width: 463px) {
+  .picture img {
+    max-width: 110px;   
+  }
+}
