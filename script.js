@@ -23,20 +23,17 @@ document.getElementById('close-button').addEventListener('click', () => {
     document.getElementById('open-dialog').close();
 });
 
-
 document.querySelector('.nav.back').addEventListener('click', () => {
     currentIndex--;
     if (currentIndex < 1) currentIndex = totalImages;
     document.getElementById('dialog-img').src = `./img/bild${currentIndex}.jpg`;
 });
 
-
 document.querySelector('.nav.next').addEventListener('click', () => {
     currentIndex++;
     if (currentIndex > totalImages) currentIndex = 1; 
     document.getElementById('dialog-img').src = `./img/bild${currentIndex}.jpg`;
 });
-
 
 renderImg();
 

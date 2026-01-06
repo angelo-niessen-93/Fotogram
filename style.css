@@ -22,22 +22,18 @@ header {
 .header-info {
   display: flex;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 25px auto;
 }
 
 .header-info img {
-  max-width: 86px;
+  max-width: 196px;
+  padding-left: 20px;
 }
 
 h1 {
-  color: rgb(0, 0, 0);
-  margin-left: 30px;
-}
-
-h2 {
   display: flex;
   justify-content: center;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 254, 254);
 }
 
 .picture {
