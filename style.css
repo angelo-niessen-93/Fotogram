@@ -31,15 +31,14 @@ header {
 }
 
 h1 {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-left: 30px;
 }
 
 h2 {
   display: flex;
   justify-content: center;
-  color: white;
-  text-shadow: 0 2px 6px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .picture {
@@ -89,23 +88,6 @@ footer {
 
 }
 
-.nav-footer {
-  max-width: 1440px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-.button-footer {
-  max-width: 1440px;
-  background: none;
-  border: none;
-}
-
-.button-footer:hover {
-  color: rgb(255, 255, 255);
-  
-}
 dialog {
     border: none;
     padding: 0;
@@ -129,11 +111,11 @@ dialog::backdrop {
     position: fixed;
     top: 20px;
     right: 30px;
-    font-size: 28px;
-    border: none;
+    font-size: 28px;  
     color: white;
     cursor: pointer;
     background-color: #737b4f;
+    border-color: #8F9779;
     border-radius: 8px;
     
 }
@@ -150,7 +132,6 @@ dialog::backdrop {
 .nav {
     top: 50%;
     font-size: 30px;
-    background: none;
     color: white;
     cursor: pointer;
     border-radius: 8px;
