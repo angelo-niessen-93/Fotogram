@@ -103,8 +103,8 @@ navBack.addEventListener('click', () => {
     // Geht ein Bild zurück
     currentIndex--;
 
-    // Wenn wir vor dem ersten Bild sind,
-    // springen wir zum letzten Bild
+        // Wenn wir vor dem ersten Bild sind,
+        // springen wir zum letzten Bild
         if (currentIndex < 0) {
         currentIndex = totalImages - 1;
     }
@@ -131,14 +131,14 @@ navNext.addEventListener('click', () => {
     // Aktualisiert das Bild im Dialog
     dialogImg.src = `./img/bild${currentIndex + 1}.jpg`;
 });
-    // Damit kann man den Dialog schließen, wenn man außerhalb des Bildes klickt
+// Damit kann man den Dialog schließen, wenn man außerhalb des Bildes klickt
 dialog.addEventListener('click', (event) => {
 
      // event.target ist das Element, auf das wirklich geklickt wurde
     // Wenn man auf den Dialog selbst klickt (nicht auf das Bild), soll der Dialog schließen
     if (event.target === dialog) {
 
-     // Schließt den Dialog
+        // Schließt den Dialog
         dialog.close();
     }
 });
@@ -164,7 +164,7 @@ function addEventTrigger() {
     }
 }
 
-        // Hört auf Tastendruck-Ereignisse auf der ganzen Seite
+// Hört auf Tastendruck-Ereignisse auf der ganzen Seite
 document.addEventListener('keydown', (event) => {
 
     // Prüfen, ob der Dialog überhaupt offen ist
