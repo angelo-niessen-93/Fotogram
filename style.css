@@ -31,6 +31,7 @@ header {
 }
 
 h1 {
+  font-family: "Figtree", sans-serif;
   display: flex;
   justify-content: center;
   color: rgb(255, 254, 254);
@@ -59,6 +60,7 @@ h1 {
 .picture img:hover {
   filter: grayscale(1);
   transform: scale(1.03);
+  cursor: pointer;
 }
 
 footer {
@@ -132,6 +134,10 @@ dialog::backdrop {
     border-radius: 8px;
     background-color: #737b4f;
     border-color: #8F9779;
+}
+
+p {
+  font-family: "Figtree", sans-serif;
 }
 
 .back { left: 30px; }
